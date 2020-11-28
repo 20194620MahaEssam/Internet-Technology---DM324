@@ -1,0 +1,38 @@
+ul{
+    list-style-type: none;
+    border: 1px solid #661010;
+    background-color: #963131;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+
+
+li a.active{
+    background-color: rgb(76, g175, 80);
+    color:white;
+}
+
+.Nav-right{
+float: right;
+}
+div{
+    border: 3px;
+    border-style: dotted;
+    box-shadow: 50px 20px 55px gold;
+    background-image: linear-gradient(orange,indigo);
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+thead tr{
+    text-align: center;
+    background-color: rgb(76, 175, 80);
+    color: white;
+    font: bold;
+    font-size: x-large;
+}
