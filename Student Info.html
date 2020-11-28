@@ -1,14 +1,22 @@
 <html>
 
  <head>
-      <title> Internet Technology </title>   
-        <a href="index.html">HOME </a>
-        <a href="Student list .html"> STUDENT LIST </a>
-        <a href="Student Info.html"> STUDENT NAME </a>
+      <title> Internet Technology </title> 
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <nav>
+         <ul>
+         <li><a href="index.html" target="_blank" class="Nav">HOME </a></li>
+         <li><a href="Student list .html" target="_blank" class="Nav"> STUDENT LIST </a></li>
+         <li><a href="#" class="active"> NEW STUDENT </a></li>
+         <li class="Nav-right"><a href="#">LOGOUT </a></li>
+       </ul>
+       </nav>
+ </head>
+
      <body>
      <form>
-      
-      <fieldset style="border: 2px solid ;text-align: center;width: 30%s; border-radius: 15px ;">
+      <div>
+      <fieldset style="border: 2px solid ; text-align: center; width: 30%s ;border-radius: 15px;">
          <legend style="text-align:left;">Student Information</legend>
         <p>
          <label>
@@ -37,7 +45,7 @@
         <p>
          <label>
             Address
-            <textarea rows="10" cols="30" ></textarea>
+            <textarea rows="5" cols="20" ></textarea>
          </label>
         </p>
 
@@ -57,6 +65,7 @@
          </label>
         </p>
       </fieldset>
+   </div>
       </form>
       <footer>
         <a href="https://www.fue.edu.eg">&copy; Future University </a>
