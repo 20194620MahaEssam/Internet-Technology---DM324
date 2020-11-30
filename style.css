@@ -1,0 +1,108 @@
+body{
+    background-image: url(https://www.fue.edu.eg/ImageHandler.ashx?Id=6429&SS=7236ec28809dbdd72855fd7784ae9d01);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: black;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: x-large;
+
+} 
+h1{
+    text-align: center;
+}
+ 
+ 
+ ul{
+    list-style-type: none;
+    border-radius: 15px;
+    border: 5px solid white;
+    margin: 10px;
+    overflow: hidden;
+    color: black;
+    font-weight: bold;
+    font-size:large ;
+
+}
+
+form{
+    
+    color: black;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: xx-large;
+    
+}
+
+li a.active{
+    background-color: rgb(76, g175, 80);
+    color:white;
+}
+a{
+    text-decoration: none;
+    color: #008cbb;
+}
+
+li a{
+    display: block;
+    color: rgb(9, 51, 114);
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.Nav-right{
+float: right;
+}
+li{
+
+    float: left;
+}
+li a:hover{
+    
+    background-color:white;
+}
+
+div{
+    
+    border: 3px;
+    border-radius: 15px;
+    border-style:solid ;
+    box-shadow: 50px 20px 55px black;
+    
+}
+
+table{
+    width: 80%;
+    height: 25;
+    
+    border-collapse: collapse;
+    color: black;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: large;
+    border: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+thead tr{
+    text-align: center;
+    background-color:black;
+    color: white;
+    font: bold;
+    font-size: x-large;
+}
+tbody tr:nth-child(even){
+    border: black;
+    background-color: white;
+}
+tbody tr:nth-child(odd){
+    border: black;
+    background-color: rgb(116, 111, 111);
+}
+tfoot{
+     background-color: black;
+     color: white;
+}
