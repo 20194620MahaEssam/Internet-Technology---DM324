@@ -146,3 +146,22 @@ li a:hover{
      }
  /*FORM(SIGNIIN)*/
 /*SIGNIN*/
+
+.searchbar{
+    width: 50%;
+    border: 1px;
+    border-style: solid ;
+    border-radius: 15px;
+    margin: 10px;
+    
+}
+
+
+.searchbox{
+    width: 80%;
+    padding: 8px 8px;
+    border: none;
+    outline: none;
+    margin: 5px;
+}
+/*inside(the white)*/
